@@ -7,6 +7,3 @@ print("we jump to a new activity")
 print("welcome to COM411!")
 print("in this week we will learn few more task")
 
-
-
-
