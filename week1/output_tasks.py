@@ -27,3 +27,10 @@ print("a\"perfect programming")
 print("a\'perfect programming")
 print()
 print("\"I am programming\"")
+print("##########")
+print("# \tO\tO #")
+print("#\t---\t #")
+print("##########")
+
+
+
