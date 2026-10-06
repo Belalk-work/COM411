@@ -16,4 +16,7 @@ print("...How to output to the screen")
 print("...How to get user input")
 print()
 print("for every success there is joy!")
+print("i am confused now")
+# another task in week1
+
 
