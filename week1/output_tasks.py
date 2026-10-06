@@ -1,6 +1,6 @@
 #This is a comment
 print("welcome to COM411")
-print()# I started it
+print()
 # we are up for the task
 print("practice work")
 print("we jump to a new activity")
@@ -18,5 +18,11 @@ print()
 print("for every success there is joy!")
 print("i am confused now")
 # another task in week1
-
-
+print("I am programming...")
+#escape characters
+print("line1\nline2\nline3")
+print("line1\tline2")
+print("pen\\paper\\rubber\\sharpener")
+print("a\"perfect programming")
+print("a\'perfect programming")
+print()
