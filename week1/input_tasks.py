@@ -30,5 +30,16 @@ weight =79
 height =1.80
 bmi =weight /(height**2)
 print(f"{name}your bmi is {bmi}")
+#the second final task in week1
+print("enter the number of lives")
+lives =int(input('3'))
+print("enter the number of energy")
+energy =int(input('10'))
+print("enter the number of shield")
+shield =int(input('7'))
+
+
+
+
 
 
