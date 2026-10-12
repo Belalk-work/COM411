@@ -46,3 +46,16 @@ if number % 2 == 0:
     print(f"the number {number} is even number")
 else:
     print(f"the number {number} is odd number")
+    #comparison operators
+print("enter the first_number")
+first_number =int(input())
+first_number =7
+print("enter the second_number")
+second_number =int(input())
+second_number =3
+if first_number > second_number:
+    print("the first_number is a biggest number")
+elif first_number < second_number:
+    print("the second_number is a biggest number")
+else:
+    print("the two numbers are equals")
