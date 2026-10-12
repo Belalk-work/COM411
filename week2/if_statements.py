@@ -59,3 +59,32 @@ elif first_number < second_number:
     print("the second_number is a biggest number")
 else:
     print("the two numbers are equals")
+
+#count up numbers whether its even or odd
+print("enter the first whole number")
+first_number =int(input())
+first_number =2
+print("enter the second whole number")
+second_number =int(input())
+second_number =4
+print("enter the third whole number")
+third_number =int(input())
+third_number =5
+even_number =0
+odd_number = 0
+if number % 2 ==0:
+    even_number = even_number + 1
+else:
+    odd_number = odd_number + 1
+if second_number % 2 ==0:
+    even_number = even_number + 1
+else:
+    odd_number = odd_number + 1
+if third_number % 2 ==0:
+    even_number = even_number + 1
+else:
+    odd_number = odd_number + 1
+
+    print(f"there are {even_number} even numbers and {odd_number}is odd number")
+
+print("end of this section")
