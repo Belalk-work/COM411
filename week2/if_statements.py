@@ -15,3 +15,12 @@ if first_number > second_number:
 else:
     print("first is equal or smaller")
 print("done")
+#tasks
+print("please enter your activity")
+activity =input ()
+
+if activity == "9":
+    print("performing activity is great")
+else:
+    print("the activity isn't correct")
+print("activity completed")
