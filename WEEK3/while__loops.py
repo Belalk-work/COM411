@@ -1,10 +1,12 @@
-#task2
-print("how many obstacles i must avoid?")
-obstacle_to_avoid= int(input())
-avoided_obstacle = 0
+#task 3
+print("how many bars should be charged?")
+number_bars_to_charge=int(input())
+charged_bar=0
 print()
-while avoided_obstacle<obstacle_to_avoid:
-    print("avoiding...", end="")
-    avoided_obstacle = avoided_obstacle + 1
-    print(f"done! {avoided_obstacle} avoided obstacle")
+while charged_bar<number_bars_to_charge:
+    charged_bar=charged_bar+1
+    print(f"charging:{" ▌" *charged_bar}")
+
+
+
 
