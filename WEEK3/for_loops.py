@@ -1,15 +1,10 @@
 
-#string in loops
-print("what word do you see?")
-word= input()
 
-print("\n ...displaying index position...\n")
+# reverse loop
+print("what phrase do you want to write?")
+phrase= input()
+print("\n reversing\n")
+print("the phrase;", end="")
 
-for count in range(0,len(word),1):
-    print(f"index{count}:", word[count])
-
-
-
-
-
-
+for position in range(len(phrase)-1, -1, -1):
+    print(phrase[position] , end="")
