@@ -1,10 +1,10 @@
-# build in functions
+#using abs,range, chr
 print("the program started")
-print("enter a standard character")
-character = input()
-if len(character) == 1:
-    print(f"the ASCII code for {character} is {ord(character)}")
+print("enter your ASCII code")
+code = int(input())
+if code >=32 and code <= 126:
+    print(f"the character represented BY ASCII code is {code} is {chr(code)}")
 
 else:
-    print("wrong, enter the only charactor again")
+    print("invalid ASCII code")
 print("end of the program")
