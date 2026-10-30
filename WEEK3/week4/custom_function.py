@@ -1,13 +1,13 @@
-#creating a function
-def name_listen():
+#creating another function
+def identify():
 
-#ask the user to put a sound
-    print("user enter a sound")
-
-    sound = input()
-# the message
-    print("heeey that was too loud", sound)
+    print("user, what do you see ahead?")
+response = input()
+if response == "a large boulder":
+    print("its time to run")    #display message
+else:
+    print("stay come we are fine")  #display message
 #call to function
-name_listen()
+identify()
 
 
