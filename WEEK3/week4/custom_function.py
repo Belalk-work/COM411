@@ -1,12 +1,16 @@
-#defined function with 2 parameter
-def climb_ladder(num_steps_remaining, crossed_steps):
-    if num_steps_remaining > crossed_steps:
-#display message
-        print("keep going")
-    else:
-        print("we are almost there")
-#call to function
-climb_ladder(2, 3)
-climb_ladder(5, 2)
-climb_ladder(4, 3)
+#adding more functions
 
+def display_ladder(steps):
+    for steps in range(steps):
+        print("|  |")
+        print("***")
+        print("|  |")
+
+#another function
+def create_ladder():
+    print("enter the number of steps") #display message
+    steps = int(input())
+    display_ladder(steps)
+
+#call to function
+create_ladder()
