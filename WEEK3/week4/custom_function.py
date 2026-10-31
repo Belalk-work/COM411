@@ -1,11 +1,12 @@
-#defined function with parameter and loops
-def cross_bridge(steps):
-    for step in range(steps):
-        print("crossed step")
-    if steps <= 5:
-           print("keep going")
+#defined function with 2 parameter
+def climb_ladder(num_steps_remaining, crossed_steps):
+    if num_steps_remaining > crossed_steps:
+#display message
+        print("keep going")
     else:
-        print("the bridge is collapsing!!!")
-#call to functions
-cross_bridge(3)
-cross_bridge(7)
+        print("we are almost there")
+#call to function
+climb_ladder(2, 3)
+climb_ladder(5, 2)
+climb_ladder(4, 3)
+
