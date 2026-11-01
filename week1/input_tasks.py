@@ -27,19 +27,20 @@ height = float(input("height: "))
 print("What is your weight?in kg")
 weight = float(input("weight: "))
 #bmi calculation
-weight =79
-height =1.80
+
 bmi =weight /(height**2)
 print(f"{name}your bmi is {bmi}")
 #the second final task in week1
 print("enter the number of lives")
-lives = int(input("number of lives: "))
+lives = int(input("number of lives"))
+print(f"live is {'❤︎'* lives}")
 
 print("enter the number of energy")
-energy = int(input("energy: "))
-
+energy = int(input("energy"))
+print(f"energy is {'❤'* energy}")
 print("enter the number of shield")
 shield = int(input("shield: "))
+print(f"shield is {'❤'*shield}︎")
 
 
 
