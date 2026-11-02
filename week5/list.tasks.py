@@ -1,14 +1,11 @@
 #list in python
-from ctypes.wintypes import PWORD
 
-
+#build in function list
 def direction ():
     directions = ["move forward", "move backward","turn left","turn right"]
-for move in direction():
+    return directions
 
-    print(move)
-
-
-
+if __name__ == "__main__":
+    print(direction())
 
 

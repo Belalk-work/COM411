@@ -25,5 +25,3 @@ while (True):
         print("Guess lower")
 
 print("Game over!")
-
-
